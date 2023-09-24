@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculo completo">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Curriculum vitæ</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header id="home">
+        <div class="navbar">
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+    </header>
+
+    <!-- FORMULARIO -->
+    <div class="form">
+        <form action="">
+            <div class="form-titulo">
+                <h2>Trabalhe Conosco</h2>
+            </div>
+            <!-- ~~ CONTATO: PARTE 1 ~~ -->
+            <div class="inputs-main">
+                <div class="inputs">
+                    <div class="input-box">
+                        <label for="name">Nome:</label>
+                        <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="idade">Idade:</label>
+                        <input id="idade" type="number" name="idade" placeholder="Digite sua idade" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="tel">Telefone:</label>
+                        <input id="tel" type="tel" name="tel" placeholder="Digite seu telefone" required>
+                    </div>
+    
+                </div>
+
+                <!-- ~~ CONTATO: PARTE 2 ~~ -->
+                <div class="inputs-2">
+                    <div class="input-box">
+                        <label for="data">Data de Nascimento:</label>
+                        <input id="data" type="date" name="data">
+                    </div>
+                    <div class="input-box">
+                        <label for="cnpj">CNPJ:</label>
+                        <input id="cnpj" type="text" name="cnpj" placeholder="Digite seu CNPJ" >
+                    </div>
+                    <div class="input-box">
+                        <label for="razao-s">Razão Social:</label>
+                        <input id="razao-s" type="text" name="razao-s" placeholder="Digite a razão social" >
+                    </div>
+                    <div class="input-box">
+                        <label for="ramo">Ramo de Atuação:</label>
+                        <input id="ramo" type="text" name="ramo" placeholder="Digite o ramo de atuação" >
+                    </div>
+    
+                </div>
+            </div>
+            
+            <!-- ~~ CONTATO: GENÊRO ~~ -->
+            <div class="genero-inputs">
+                <div class="genero-titulo">
+                    <h6>Genêro</h6>
+                </div>
+                <div class="genero-content">
+                    <div class="genero-input">
+                         <input type="radio" id="F" name="genero">
+                         <label for="F">Feminino</label>
+                    </div>
+                    <div class="genero-input">
+                        <input type="radio" id="M" name="genero">
+                        <label for="M">Masculino</label>
+                   </div>
+                   <div class="genero-input">
+                        <input type="radio" id="O" name="genero">
+                        <label for="O">Outros</label>
+                   </div>
+                </div>
+            </div>
+
+            <!-- ~~ CONTATO: ENDEREÇO ~~ -->
+            <div class="end-inputs">
+                <div class="end-titulo">
+                    <h6>Endereço</h6>
+                </div>
+                    <div class="end-main">
+                        <div class="end-content">
+                            <div class="input-box">
+                                <label for="cep">CEP:</label>
+                                <input id="cep" type="number" name="cep" placeholder="Digite seu CEP" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="cidade">Cidade:</label>
+                                <input id="cidade" type="text" name="cidade" placeholder="Digite sua cidade" required>
+                            </div>
+                        </div>
+                        <div class="end-content-2">
+                            <div class="input-box">
+                                <label for="logradouro">Logradouro:</label>
+                                <input id="logradouro" type="text" name="logradouro" placeholder="Digite seu logradouro" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="estado">Estado:</label>
+                                <input id="estado" type="text" name="estado" placeholder="Digite seu estao" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="end-titulo">
+                        <h6>Tipo de Logradouro:</h6>
+                    </div>
+                    <div class="log-content">
+                        <div class="log-input">
+                             <input type="radio" id="rua" name="log">
+                             <label for="rua">Rua</label>
+                        </div>
+                        <div class="log-input">
+                            <input type="radio" id="av" name="log">
+                            <label for="av">Avenida</label>
+                       </div>
+                       <div class="log-input">
+                            <input type="radio" id="praca" name="log">
+                            <label for="praca">Praça</label>
+                       </div>
+                       <div class="log-input">
+                            <input type="radio" id="alameda" name="log">
+                            <label for="alameda">Alameda</label>
+                       </div>
+                       <div class="log-input">
+                            <input type="radio" id="outro" name="log">
+                            <label for="outro">Outro</label>
+                        </div>
+                    </div>
+
+                    <!-- ~~ CONTATO: LINGUAGEM ~~ -->
+                    <div class="linguagem-titulo">
+                        <h6>Linguagens que conhece</h6>
+                    </div>
+                    <div class="linguagem-content">
+                        
+                        <div class="linguagem-input">
+                            <input type="checkbox" id="html" name="linguagens">
+                            <label for="html">HTML/CSS</label>
+                        </div>
+                        <div class="linguagem-input">
+                            <input type="checkbox" id="js" name="linguagens">
+                            <label for="js">JAVASCRIPT</label>
+                        </div>
+                        <div class="linguagem-input">
+                            <input type="checkbox" id="php" name="linguagens">
+                            <label for="php">PHP</label>
+                        </div>
+                        <div class="linguagem-input">
+                            <input type="checkbox" id="c" name="linguagens">
+                            <label for="c">C#</label>
+                        </div>
+                        <div class="linguagem-input">
+                            <input type="checkbox" id="python" name="linguagens">
+                            <label for="python">PYTHON</label>
+                        </div>
+                        <div class="linguagem-input">
+                            <input type="checkbox" id="outras" name="linguagens">
+                            <label for="outras">OUTRAS</label>
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="button-form">
+                <button>Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- RODAPÉ -->
+      <footer>
+        <p>Desenvolvedor Henrique - 2023 ©️</p>
+      </footer>
+</body>
+</html>
